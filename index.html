@@ -16,6 +16,7 @@
         rel="stylesheet">
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/icon.jpg">
 </head>
 
 <body id="page-top">
@@ -66,7 +67,7 @@
                     </p>
                 </div>
             </div>
-            <!-- <img class="img-fluid" src="assets/img/ipad.png" alt="..." /> -->
+            <!-- <img class="img-fluid" src="assets/img/logo-white/ipad.png" alt="..." /> -->
         </div>
     </section>
     <!-- Projects-->
@@ -84,6 +85,21 @@
                 </div>
             </div>
             <!-- Project One Row-->
+            <div class="row gx-0 justify-content-center">
+                <div class="col-lg-6 parent-brand"><img class="img-brands" src="assets/img/bd-photo.png" alt="BD Barcelona" /></div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <a class="brand-logos" href="https://www.bdbarcelona.com/" target="_blank"><img class="img-brands-logos" src="assets/img/logo-black/bdbarcelona.png" alt="logo-bdbarcelona"  /></a>
+                                <p class="mb-0 text-white-50">BD Barcelona – La rencontre de l’art et du design –<br>La marque associe les processus artisanaux aux techniques industrielles de pointe pour offrir des pièces d’exception signées par les plus grands designers.</p>
+                                <hr class="d-none d-lg-block mb-0 me-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Two Row-->
             <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                 <div class="col-lg-6 parent-brand"><img class="img-brands" src="assets/img/bontempi-photo.png" alt="Bontempi" /></div>
                 <div class="col-lg-6">
@@ -99,16 +115,16 @@
                     </div>
                 </div>
             </div>
-            <!-- Project Two Row-->
+            <!-- Project Three Row-->
             <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6 parent-brand"><img class="img-brands" src="assets/img/bd-photo.png" alt="BD Barcelona" /></div>
+                <div class="col-lg-6 parent-brand"><img class="img-brands" src="assets/img/bivaq-photo.jpg" alt="Bivaq" /></div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <a class="brand-logos" href="https://www.bdbarcelona.com/" target="_blank"><img class="img-brands-logos" src="assets/img/logo-black/bdbarcelona.png" alt="logo-bdbarcelona"  /></a>
-                                <p class="mb-0 text-white-50">BD Barcelona – La rencontre de l’art et du design –<br>La marque associe les processus artisanaux aux techniques industrielles de pointe pour offrir des pièces d’exception signées par les plus grands designers.</p>
-                                <hr class="d-none d-lg-block mb-0 me-0" />
+                                <a class="brand-logos" href="https://www.bontempi.it/it_fr/" target="_blank"><img class="img-brands-logos" src="assets/img/logo-black/bivaq.png" alt="logo-bivaq"  /></a>
+                                <p class="mb-0 text-white-50">Les collections outdoor Bivaq respectent les plus haut critères de qualité et de confort, dans l’esprit des extérieurs méditerranéens. La marque Barcelonaise développe son activité à la fois sur le marché résidentiel, du contract et de l'hôtellerie, en réalisant des projets avec ses propres conceptions ou des propositions sur mesure..</p>
+                                <hr class="d-none d-lg-block mb-0 ms-0" />
                             </div>
                         </div>
                     </div>
@@ -162,12 +178,12 @@
         </div>
     </section>
     <!-- Signup-->
-    <section class="signup-section" id="signup">
+    <!-- <section class="signup-section" id="signup">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5">
                 <div class="col-md-10 col-lg-8 mx-auto text-center">
-                    <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                    <h2 class="text-white mb-5">Inscrivez vous pour recevoir nos dernières news !</h2>
+                    <i class="far fa-paper-plane fa-2x mb-2 text-white"></i> -->
+                    <!-- <h2 class="text-white mb-5">Inscrivez vous pour recevoir nos dernières news !</h2> -->
                     <!-- * * * * * * * * * * * * * * *-->
                     <!-- * * SB Forms Contact Form * *-->
                     <!-- * * * * * * * * * * * * * * *-->
@@ -175,8 +191,7 @@
                     <!-- To make this form functional, sign up at-->
                     <!-- https://startbootstrap.com/solution/contact-forms-->
                     <!-- to get an API token!-->
-                    <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                        <!-- Email address input-->
+                    <!--<form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
                         <div class="row input-group-newsletter">
                             <div class="col"><input class="form-control" id="emailAddress" type="email"
                                     placeholder="Enter email address..." aria-label="Votre adresse email..."
@@ -189,10 +204,6 @@
                         <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Cet email n'est pas
                             valide.
                         </div>
-                        <!-- Submit success message-->
-                        <!---->
-                        <!-- This is what your users will see when the form-->
-                        <!-- has successfully submitted-->
                         <div class="d-none" id="submitSuccessMessage">
                             <div class="text-center mb-3 mt-2 text-white">
                                 <div class="fw-bolder">Bien reçu !</div>
@@ -202,18 +213,14 @@
                                     href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                             </div>
                         </div>
-                        <!-- Submit error message-->
-                        <!---->
-                        <!-- This is what your users will see when there is-->
-                        <!-- an error submitting the form-->
                         <div class="d-none" id="submitErrorMessage">
                             <div class="text-center text-danger mb-3 mt-2">Error sending message!</div>
                         </div>
-                    </form>
-                </div>
+                    </form> -->
+                <!-- </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Contact-->
     <section class="contact-section bg-black">
         <div class="container px-4 px-lg-5">
@@ -224,7 +231,7 @@
                             <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Addresse</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50">Rue des 36 ponts à l'ancienne tu connais</div>
+                            <div class="small text-black-50">9 Rue des Tourneurs<br>31000 Toulouse</div>
                         </div>
                     </div>
                 </div>
@@ -251,8 +258,8 @@
                 </div>
             </div>
             <div class="social d-flex justify-content-center">
-                <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                <a class="mx-2" href="https://www.instagram.com/3ddesigndiffusion/?hl=fr"><i class="fab fa-instagram"></i></a>
+                <a class="mx-2" href="https://www.pinterest.fr/3DDESIGNDIFFUSION/"><i class="fab fa-pinterest"></i></a>
             </div>
         </div>
     </section>
@@ -264,10 +271,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
