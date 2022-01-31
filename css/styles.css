@@ -649,11 +649,9 @@ progress {
 .img-brands {
   height: 100%;
   width: 100%;
-  position: absolute;
   right: 0;
   top: 0;
   object-fit: cover;
-
 }
 
 .img-brands-logos {
@@ -7966,7 +7964,7 @@ fieldset:disabled .btn {
 }
 
 .mb-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 0rem !important;
 }
 
 .mb-auto {
@@ -9033,6 +9031,10 @@ fieldset:disabled .btn {
 
   .ms-sm-5 {
     margin-left: 3rem !important;
+  }
+
+  .mb-5 {
+    margin-bottom: 0rem !important;
   }
 
   .ms-sm-auto {
