@@ -8365,7 +8365,6 @@ fieldset:disabled .btn {
 .text-black-50 {
   --bs-text-opacity: 1;
   font-weight: 200;
-  font-size: larger;
 
   color: rgba(0, 0, 0, 0.5) !important;
 }
@@ -8374,7 +8373,6 @@ fieldset:disabled .btn {
   --bs-text-opacity: 1;
   color: rgba(255, 255, 255, 0.8) !important;
   font-weight: 200;
-  font-size: larger;
 }
 
 .text-reset {
@@ -12067,7 +12065,7 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 2rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -12079,13 +12077,10 @@ body {
   }
 }
 .projects-section .project-text {
-  padding: 3rem;
+  padding: 2.5rem;
   font-size: 90%;
 }
 @media (min-width: 992px) {
-  .projects-section .project-text {
-    padding: 5rem;
-  }
   .projects-section .project-text hr {
     border-color: #0e2747;
     border-width: 0.25rem;
@@ -12182,5 +12177,14 @@ body {
 }
 
 .logo-main {
-  width: 30rem;
+  max-width: 30rem;
+}
+
+@media (max-width: 575.98px) {
+  .logo-main {
+    max-width: 100%;
+  }
+  .navbar-brand{
+    font-size: 16px;
+  }
 }
